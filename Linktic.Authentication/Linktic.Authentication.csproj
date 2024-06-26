@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.6" />
+    <PackageReference Include="NetCore.AutoRegisterDi" Version="2.2.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Linktic.Authentication.BusinessServices\Linktic.Authentication.BusinessServices.csproj" />
+    <ProjectReference Include="..\Linktic.Authentication.Model\Linktic.Authentication.Model.csproj" />
+    <ProjectReference Include="..\Linktic.Authentication.Repository\Linktic.Authentication.Repository.csproj" />
+    <ProjectReference Include="..\Linktic.Authentication.Services\Linktic.Authentication.Services.csproj" />
+  </ItemGroup>
+
+</Project>

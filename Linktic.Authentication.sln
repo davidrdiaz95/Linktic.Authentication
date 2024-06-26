@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linktic.Authentication", "Linktic.Authentication\Linktic.Authentication.csproj", "{7D9D9764-DA2B-4361-9D4A-88BCD5049B68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linktic.Authentication.Repository", "Linktic.Authentication.Repository\Linktic.Authentication.Repository.csproj", "{BEDED692-5638-4E5C-97A9-18AA505B179D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linktic.Authentication.Model", "Linktic.Authentication.Model\Linktic.Authentication.Model.csproj", "{8D166C03-8A5B-4EB8-B664-3AF502541815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linktic.Authentication.BusinessServices", "Linktic.Authentication.BusinessServices\Linktic.Authentication.BusinessServices.csproj", "{AC23328E-CC70-406A-8A44-880C42136069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linktic.Authentication.Services", "Linktic.Authentication.Services\Linktic.Authentication.Services.csproj", "{ED135E04-0858-450B-BFD0-ECB4684FDA60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D9D9764-DA2B-4361-9D4A-88BCD5049B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9D9764-DA2B-4361-9D4A-88BCD5049B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9D9764-DA2B-4361-9D4A-88BCD5049B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9D9764-DA2B-4361-9D4A-88BCD5049B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEDED692-5638-4E5C-97A9-18AA505B179D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDED692-5638-4E5C-97A9-18AA505B179D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDED692-5638-4E5C-97A9-18AA505B179D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDED692-5638-4E5C-97A9-18AA505B179D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D166C03-8A5B-4EB8-B664-3AF502541815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D166C03-8A5B-4EB8-B664-3AF502541815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D166C03-8A5B-4EB8-B664-3AF502541815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D166C03-8A5B-4EB8-B664-3AF502541815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC23328E-CC70-406A-8A44-880C42136069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC23328E-CC70-406A-8A44-880C42136069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC23328E-CC70-406A-8A44-880C42136069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC23328E-CC70-406A-8A44-880C42136069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED135E04-0858-450B-BFD0-ECB4684FDA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED135E04-0858-450B-BFD0-ECB4684FDA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED135E04-0858-450B-BFD0-ECB4684FDA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED135E04-0858-450B-BFD0-ECB4684FDA60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A04B691-CE20-4357-BF4E-00A958DA4BD2}
+	EndGlobalSection
+EndGlobal
